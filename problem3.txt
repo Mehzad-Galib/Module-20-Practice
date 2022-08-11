@@ -1,0 +1,12 @@
+Binary search is a searching technique to search a sorted array by repeatedly dividing the search interval by half, and creating a binary tree. 
+
+if the length of array is n, and iteration is k, then length of array would be n/2^k;
+
+after k iterations, the length of array becomes 1.
+Then, n = 2^k;
+
+applying log on both sides,
+
+log(n) = k*log(2);
+
+therefore, k = log2(n);
